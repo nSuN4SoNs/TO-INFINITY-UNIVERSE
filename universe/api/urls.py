@@ -12,9 +12,9 @@ router = DefaultRouter()
 
 router.register("galaxies", GalaxyViewSet)
 router.register("starsystems", StarSystemViewSet)
-router.register("starsystem_stars", StarViewSet)
-router.register("starsystem_planets", PlanetViewSet)
-router.register("starsystems_moons", MoonViewSet)
+router.register("stars", StarViewSet)
+router.register("planets", PlanetViewSet)
+router.register("moons", MoonViewSet)
 
 urlpatterns = [
     path("", include(router.urls))
