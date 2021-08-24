@@ -6,7 +6,7 @@ class Connector:
     server = "http://127.0.0.1:8000"
     api = "api"
     auth = "rest-auth/login"
-    path_to_cred = r"E:\PITON SHHHH\DJANGGGGGGGGO\TO INFINITY, UNIVERSE\Myproject-main\universe\api_app\auth.json"
+    path_to_cred = r"E:\PITON_SHHHH\DJANGGGGGGGGO\TO_INFINITY_UNIVERSE\Myproject_main\universe\api_app"
 
     def __init__(self):
         self.session = requests.session()

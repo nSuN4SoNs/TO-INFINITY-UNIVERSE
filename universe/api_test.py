@@ -17,7 +17,6 @@ def get_item_id(data, name_data):
 """
 
 connector = Connector()
-# company_id = get_item_id(connector.get_list("companies"),"company")
 galaxy_id = get_item_id(connector.get_list("galaxies"),"galaxy")
 starsystem_id = get_item_id(connector.get_list("starsystems"),"starsystem")
 star_id = get_item_id(connector.get_list("stars"),"star")
